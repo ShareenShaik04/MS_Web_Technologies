@@ -1,0 +1,21 @@
+﻿<!-- Make sure you are using Strong Type View  -->
+<!-- TODO: Add Student Name -->
+<!-- TODO: Add Student ID -->
+
+<!-- TODO: Ensure this is a strongly typed view -->
+<!-- TODO: Add a Back to List button -->
+<!-- TODO: Ensure image path is correct -->
+
+<div class="card text-center w-50 m-auto">
+    <h4 class="card-title">@Model.Title</h4>
+
+    <!-- TODO: Clicking image in Index should navigate here -->
+    <img src="/image/@Model.ImgUrl" class="card-img" />
+
+    <div class="card-body">
+        <p class="bg-black text-white p-3 fw-bolder card-text">Genre: @Model.Genre</p>
+        <p class="card-text bg-warning p-3 fw-bold text-primary">Release Year: @Model.ReleaseYear</p>
+
+        <!-- TODO: Add Back to List button -->
+    </div>
+</div>
